@@ -7,7 +7,13 @@ Then it recursively crawles the retrieved URLs. Prints a report of all the links
 
 ## Things learned
 - testing with Jest
+- CommonJS modules
 
 ## Technologies
+- node 18.7.0
 - jest 29.4.3
 - jsdom 21.1.0
+
+
+## License
+This project is licensed under the terms of the MIT license.

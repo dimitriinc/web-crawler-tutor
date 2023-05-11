@@ -18,8 +18,8 @@ function printPages(pages) {
 function sortPages(pages) {
     const pagesArr = Object.entries(pages)
     pagesArr.sort((a, b) => {
-        aHits = a[1]
-        bHIts = b[1]
+        a.hits = a[1]
+        b.hIts = b[1]
         return b[1] - a[1]
     })
     return pagesArr
