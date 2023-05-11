@@ -1,5 +1,5 @@
-import { crawlPage } from "./crawl.js"
-import { printPages } from "./report.js"
+const {crawlPage} = require ("./crawl.js")
+const {printPages} = require ("./report.js")
 
 async function main() {
     if (process.argv.length < 3) {

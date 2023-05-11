@@ -1,4 +1,4 @@
-import { JSDOM } from 'jsdom'
+const {JSDOM} = require ('jsdom')
 
 async function crawlPage(baseURL, currentURL, pages)  {
 
@@ -82,6 +82,6 @@ function normalizeUrl(urlString) {
     return hostPath
 }
 
-export default {
+module.exports = {
     normalizeUrl, getUrlsFromHTML, crawlPage
 }
